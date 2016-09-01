@@ -168,17 +168,19 @@ html {
         color: #fff;
         transition: color 1s ease; }
 
-.slider {
-  width: 100%;
-  height: 300px;
-  margin: auto; }
-  .slider .item {
+.slider-container {
+  position: relative; }
+  .slider-container .slider {
     width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 300px;
-    color: #fff;
-    font-size: 30px; }
+    height: 300px;
+    margin: auto; }
+    .slider-container .slider .item {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      line-height: 300px;
+      color: #fff;
+      font-size: 30px; }
 
 .red {
   background-color: red; }
@@ -191,6 +193,14 @@ html {
 
 .controllers {
   text-align: center; }
+  .controllers .prev {
+    position: absolute;
+    bottom: 47%;
+    left: 0%; }
+  .controllers .next {
+    position: absolute;
+    bottom: 47%;
+    right: 0%; }
   .controllers span {
     font-size: 40px;
     display: inline-block;
