@@ -31,11 +31,15 @@
 //     });
 // });
 
-$(document).ready(function(){
-    $('#nav-icon2').click(function(){
-        $(this).toggleClass('open');
+
+
+
+$(document).ready(function() {
+    $('#nav-icon2').click(function() {
+        $(".menu").toggleClass('menu--open');
     });
 });
+
 
 
 

@@ -142,6 +142,11 @@
     box-sizing: border-box;
     &--open {
         display: block;
+        margin-bottom: 20px;
+        &:hover {
+            transition: background-color 1s ease;
+            background-color: #cc0000;
+        }
     }
     ul {
         padding: 0;
@@ -158,7 +163,8 @@
             color: #000;
             vertical-align: middle;
             &:hover {
-                color: red;
+                color: #fff;
+                transition: color 1s ease;
             }
         }
     }

@@ -145,7 +145,11 @@ html {
   border: 1px solid #000;
   box-sizing: border-box; }
   .menu--open {
-    display: block; }
+    display: block;
+    margin-bottom: 20px; }
+    .menu--open:hover {
+      transition: background-color 1s ease;
+      background-color: #cc0000; }
   .menu ul {
     padding: 0;
     margin: 0;
@@ -161,8 +165,39 @@ html {
       color: #000;
       vertical-align: middle; }
       .menu ul li:hover {
-        color: red;
-        text-decoration: underline; }
+        color: #fff;
+        transition: color 1s ease; }
+
+.slider {
+  width: 100%;
+  height: 300px;
+  margin: auto; }
+  .slider .item {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    font-size: 30px; }
+
+.red {
+  background-color: red; }
+
+.green {
+  background-color: green; }
+
+.blue {
+  background-color: blue; }
+
+.controllers {
+  text-align: center; }
+  .controllers span {
+    font-size: 40px;
+    display: inline-block;
+    padding: 4px 8px;
+    color: #000;
+    margin: 0px auto;
+    cursor: pointer; }
 
 article,
 aside,
