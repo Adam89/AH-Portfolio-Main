@@ -1,0 +1,58 @@
+
+
+
+// $(document).ready(function() {
+//     var stickyNavTop = $('.nav').offset().top;
+
+//     var stickyNav = function() {
+//         var scrollTop = $(window).scrollTop();
+
+//         if (scrollTop > stickyNavTop) {
+//             $('.nav').addClass('sticky');
+//         } else {
+//             $('.nav').removeClass('sticky');
+//         }
+//     };
+//     stickyNav();
+//     $(window).scroll(function() {
+//         stickyNav();
+//     });
+// });
+
+
+// $(document).ready(function() {
+//     $('.header1').click(function() {
+//         var hotItem = document.getElementsByClassName('hot1');
+//         for (var i = 0; i < hotItem.length; i++) {
+//             hotItem[i].className = 'cool';
+//         }
+//     });
+// });
+
+
+// $(document).ready(function(){
+//     $('.nav-icon2').click(function(){
+//         $(this).toggleClass('open');
+//         $(this).toggleClass("menuOpen");
+//     });
+// });
+
+
+
+$(document).ready(function() {
+$(function() {
+    $("#nav-icon2").click(function(e) {
+        $(".menu").toggleClass("menu--open");
+        e.preventDefault();
+    });
+});
+});
+
+
+
+
+
+
+
+
+     

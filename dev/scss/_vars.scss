@@ -1,0 +1,16 @@
+
+/* color */
+
+$primary-navcolor: #000000;
+$white: #fff;
+$main-fonts: 'blowbrush', serif;
+
+
+
+@font-face {
+	font-family: 'blowbrush';
+		src: url('../fonts/blowbrush-webfont.woff') format('woff'), /* Super Modern Browsers */
+		 url('../fonts/blowbrush-webfont.woff2'); format:('woff2'); /* Pretty Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
