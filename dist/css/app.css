@@ -161,7 +161,8 @@ html {
       color: #000;
       vertical-align: middle; }
       .menu ul li:hover {
-        color: red; }
+        color: red;
+        text-decoration: underline; }
 
 article,
 aside,
