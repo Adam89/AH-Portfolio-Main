@@ -8,47 +8,58 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script type="text/css" src="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></script>
-
-
 </head>
 
 <body>
- <div id="header" class="wrapper">
-    <div class="left-logo__image"></div>
-    <div id="nav-icon2">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+    <div id="header" class="wrapper">
+        <div class="left-logo__image"></div>
+        <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>about</li>
+                <li>work</li>
+                <li>skills</li>
+                <li>contact</li>
+            </ul>
+        </div>
     </div>
-    <div class="menu">
-        <ul>
-            <li>about</li>
-            <li>work</li>
-            <li>skills</li>
-            <li>contact</li>
-        </ul>
+    <div class="slider-container wrapper">
+        <div class="slider">
+            <div class="item red"> item 1</div>
+            <div class="item green"> item 1</div>
+            <div class="item blue"> item 1</div>
+        </div>
+        <div class="controllers">
+            <span class="prev fa fa-angle-right"> < </span>
+            <span class="next fa fa-angle-left"> > </span>
+        </div>
     </div>
-</div>
-<div class="slider-container wrapper">
-    <div class="slider">
-        <div class="item red"> item 1</div>
-        <div class="item green"> item 1</div>
-        <div class="item blue"> item 1</div>
+    <!--     <a href="#" class="modal-button">click to show modal</a>
+    <div class="modal-container">
+        this is a modal
+    </div> --> 
+    <div class="modal-container wrapper">
+
+            <button id="myBtn">Open Modal</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">x</span>
+                <p>Some text in the Modal..</p>
+            </div>
+        </div>
     </div>
-    <div class="controllers">
-    <span class="prev fa fa-angle-right"> < </span>
-    <span class="next fa fa-angle-left"> > </span>
-</div>
-
-
-
-
 
 
 </body>
