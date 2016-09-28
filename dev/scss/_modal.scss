@@ -10,6 +10,30 @@
 //     text-align: center;
 // }
 
+.modal-container {
+    border:1px solid #000;
+    text-align: center;
+
+button {
+    margin: 20px auto;
+    display: block;
+    padding: 20px 40px;
+    background: linear-gradient(#888, #555);
+    border: 1px solid #000;;
+    color:#fff;
+    text-decoration: underline;
+    border-radius: 5%;
+    text-shadow: 0 -1px 0 #000;
+    cursor: pointer;
+    &:hover {
+        background: linear-gradient(green, blue);
+        background-color:#fff;
+        color:#fff;
+        transition: .9s ease-in-out;
+        }
+    }
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -20,7 +44,7 @@
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
 }
 
@@ -30,7 +54,7 @@
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen 
+    width: 80%; /* Could be more or less, depending on screen
     size */
     text-align: center;
 }

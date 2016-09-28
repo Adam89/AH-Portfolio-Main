@@ -1,8 +1,3 @@
-
-
-
-
-
 // $(document).ready(function() {
 //     var stickyNavTop = $('.nav').offset().top;
 
@@ -41,8 +36,17 @@ $(document).ready(function() {
 });
 
 
+/* Open when someone clicks on the span element */
+$(document).ready(function() {
+$('.open-overlay').click(function() {
+document.getElementById("myNav").style.width = "100%";
+});
+});
 
 
-
-
-
+ /* Close when someone clicks on the "x" symbol inside the overlay */
+ $(document).ready(function() {
+ $('.closebtn').click(function() {
+document.getElementById("myNav").style.width = "0%";
+});
+ });
